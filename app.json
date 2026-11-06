@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Shop Book",
+    "slug": "shop-book",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#0E9F6E" },
+    "android": { "package": "com.shopbook.app", "adaptiveIcon": { "backgroundColor": "#0E9F6E" } },
+    "ios": { "bundleIdentifier": "com.shopbook.app", "supportsTablet": false }
+  }
+}

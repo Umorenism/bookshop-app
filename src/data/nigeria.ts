@@ -1,0 +1,51 @@
+// Akwa Ibom, Delta, Lagos pinned at top, then the rest A–Z (36 states + FCT).
+export const STATES: string[] = [
+  'Akwa Ibom',
+  'Delta',
+  'Lagos',
+  'Abia',
+  'Adamawa',
+  'Anambra',
+  'Bauchi',
+  'Bayelsa',
+  'Benue',
+  'Borno',
+  'Cross River',
+  'Ebonyi',
+  'Edo',
+  'Ekiti',
+  'Enugu',
+  'FCT (Abuja)',
+  'Gombe',
+  'Imo',
+  'Jigawa',
+  'Kaduna',
+  'Kano',
+  'Katsina',
+  'Kebbi',
+  'Kogi',
+  'Kwara',
+  'Nasarawa',
+  'Niger',
+  'Ogun',
+  'Ondo',
+  'Osun',
+  'Oyo',
+  'Plateau',
+  'Rivers',
+  'Sokoto',
+  'Taraba',
+  'Yobe',
+  'Zamfara',
+];
+
+// Offline fallback. The backend also serves these plus user-added markets.
+export const SEED_MARKETS: Record<string, string[]> = {
+  'Akwa Ibom': ['Akpan Andem', 'Itam', 'Nwaniba', 'Uyo Main Market'],
+  Delta: ['Igbudu', 'Main Market Warri', 'Effurun Market', 'Ughelli Market'],
+  Lagos: ['Mile 12', 'Balogun', 'Oshodi', 'Computer Village', 'Alaba', 'Lekki Market'],
+  Rivers: ['Mile 1', 'Mile 3', 'Oil Mill'],
+  'FCT (Abuja)': ['Wuse', 'Garki', 'Utako'],
+};
+
+export const OTHERS = 'Others';
